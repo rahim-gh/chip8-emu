@@ -19,19 +19,27 @@ It have been writen and tested for/on **linux only**.
 
 ## Getting Started
 
-- Clone it
+### Clone it
 
 ```sh
 git clone https://github.com/rahim-gh/chip8-emu
 ```
 
-- Compile it
+### Compile it
+
+You need:
+
+- `GLUT` (`v3.6.0` used) (the package called `freeglut` on most distributions).
+- `g++` or `clang++`, a C++ compiler.
 
 ```sh
-g++ main.cpp src/chip8.cpp -o chip8_emulator -Iinclude -lGL -lglut -lGLU -Wall -Wextra
+g++ --std=c++14 \
+    main.cpp src/chip8.cpp -o chip8_emulator \
+    -Iinclude -lGL -lglut -lGLU \
+    -Wall -Wextra -g -O0
 ```
 
-- Run it
+### Run it
 
 You can choose one of the games from `games/` directory, or install one from [CHIP-8 Archive](https://archive.org/details/chip-8-games).
 

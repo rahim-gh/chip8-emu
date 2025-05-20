@@ -1,3 +1,4 @@
+#include "include/chip8.hpp"
 # Created by https://www.toptal.com/developers/gitignore/api/c++,executable,backup,git,visualstudiocode,clion+all
 # Edit at https://www.toptal.com/developers/gitignore?templates=c++,executable,backup,git,visualstudiocode,clion+all
 
@@ -174,3 +175,5 @@ fabric.properties
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/c++,executable,backup,git,visualstudiocode,clion+all
+
+chip8-emulator
