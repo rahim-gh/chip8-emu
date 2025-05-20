@@ -1,8 +1,10 @@
 # CHIP-8 Emulator
 
-**CHIP-8** is an 8-bit assembly for the `COSMAC VIP`, This repository is an emulator writen in **C++** to emulate CHIP-8 games.
+**CHIP-8** is an interpreted programming language, developed by **Joseph Weisbecker** on his 1802 microprocessor. It was initially used on the `COSMAC VIP` and `Telmac 1800`, which were 8-bit microcomputers made in the **mid-1970s**.
 
-As this emulator is still in testing you should expect **bugs**, **errors**, **uncompatibility**, and even **crashes**.
+This repository is an Emulator writen in **C++** to emulate CHIP-8 games.
+
+As this emulator is still in testing expect a lot of **uncompatibility issues**, and **crashes**.
 
 It have been writen and tested for/on **linux only**.
 
@@ -48,4 +50,20 @@ The keys have been already re-mapped from *ORIGINAL* to *ALTERNATIVE*
 
 ## License
 
-NONE
+```md
+    CHIP-8 Emu, A CHIP-8 games emulator writen in C++.
+    Copyright (C) 2025 Guerrouf A.
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+```
