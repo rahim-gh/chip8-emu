@@ -176,4 +176,4 @@ fabric.properties
 
 # End of https://www.toptal.com/developers/gitignore/api/c++,executable,backup,git,visualstudiocode,clion+all
 
-chip8-emulator
+chip8_emulator
